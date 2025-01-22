@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+</head>
+<body>
+
+    <h2 style="text-align:center;">Feedback Form</h2>
+
+    <form action="feedback-success.html" method="GET">
+
+    <table align="center">
+        <tr>
+            <th colspan="2">Please provide your feedback</th>
+        </tr>
+        <tr>
+            <td><label for="username">Username:</label></td>
+            <td><input type="text" id="username" name="username" required></td>
+        </tr>
+        <tr>
+            <td><label for="email">Email:</label></td>
+            <td><input type="text" id="email" name="email" required></td>
+        </tr>
+        <tr>
+            <td><label for="feedback">Your Feedback:</label></td>
+            <td><textarea id="feedback" name="feedback" rows="4" required></textarea></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align:center;">
+                <button type="submit">Submit Feedback</button>
+            </td>
+        </tr>
+    </table>
+</form>
+
+</body>
+</html>
