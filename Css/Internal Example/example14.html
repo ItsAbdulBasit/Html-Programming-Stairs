@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/* div {
+  background-color: coral;
+  width: 200px;
+  height: 65px;
+  border: 1px solid;
+  overflow: visible;
+  overflow: hidden;
+  overflow: scroll;
+  overflow: auto;
+  overflow-x: scroll;
+  overflow-y: hidden;
+} */
+
+/* ------------- The Overflow Wrap ----------- */
+div {
+  width: 150px; 
+  border: 1px solid #000000;
+}
+
+div.a {
+  overflow-wrap: normal;
+}
+
+div.b {
+  overflow-wrap: break-word;
+}
+
+div.c {
+  overflow-wrap: anywhere;
+}
+</style>
+
+</head>
+<body>
+
+<!-- <div>You can use gbgbgbgbgbggiiuuyyiuytytuiyiouuyiouyuiouyoiiutuiyiouiuyyuiyuiuioyuiyuiyuiyuiuouuyoiyiuy the overflow property when you want to have better control of the layout. The overflow property specifies what happens if content overflows an element's box. You can use the overflow property when you want to have better control of the layout. The overflow property specifies what happens if content overflows an element's box.</div> -->
+
+<!-- /* ------------- The Overflow Wrap ----------- */ -->
+<h4>overflow-wrap: normal (default):</h4>
+<div class="a">This div contains a very long word: thisisaveryveryveryveryveryverylongword. The long word will not break and wrap to the next line.</div>
+
+<h4>overflow-wrap: break-word:</h4>
+<div class="b">This div contains a very long word: thisisaveryveryveryveryveryverylongword. The long word will break and wrap to the next line.</div>
+
+<h4>overflow-wrap: anywhere:</h4>
+<div class="c">This div contains a very long word: thisisaveryveryveryveryveryverylongword. The long word will break and wrap to the next line.</div>
+
+</body>
+</html>
+
