@@ -1,0 +1,76 @@
+Units in CSS
+------------
+
+1. px = fixed in size
+   
+   parent section = width : 500px
+   |-------------------500px----------------------------|
+   child section = width : 400px
+   |-----------------400px---------------------|
+ 
+   parent section = width : 300px
+   |----------300px------------------|
+   child section = width : 400px
+   |-----------------400px---------------------|
+
+2. % = percentage
+
+   parent section = width : 500px
+   |-------------------500px----------------------------|
+   child section = width : 90%
+   |-----------------90%---------------------|
+ 
+   parent section = width : 300px
+   |----------300px------------------|
+   child section = width : 90%
+   |-----------------90%---------------------|
+
+3. vh = viewport height
+   vw = viewport width
+
+   1vh = 1% of device height
+   If device height = 500px
+
+   1vh = 1% of 500px    
+       = 1/100 x 500
+       = 5px
+
+   5vh = 5% of 500px
+       = 5/100 x 500
+       = 25px 
+
+   1vw = 1% of device width
+   If device width = 500px
+
+   1vw = 1% of 500px    
+       = 1/100 x 500
+       = 5px
+
+   5vw = 5% of 500px
+       = 5/100 x 500
+       = 25px 
+
+4. em = empherical unit
+    By default : 
+        1em = 16px
+        2em = 32px
+        2.5em = 40px 
+
+    With respect to parent : 
+        if parent font-size is of 20px, then 
+            1em = 20px
+            2em = 40px 
+            2.5em = 50px 
+    
+    rem = root empherical unit (here root is html element)
+        By default : 
+        1rem = 16px
+        2rem = 32px
+        2.5rem = 40px 
+
+    With respect to root element i.e html element : 
+        if html element font-size is of 20px, then 
+            1rem = 20px
+            2rem = 40px 
+            2.5rem = 50px 
+
