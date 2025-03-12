@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    border-style: solid;
+    width: 100%;
+    /* background-color: grey; */
+}
+
+.header{
+    height: 60px;
+    border-style: solid;
+    /* background-color: rosybrown; */
+}
+
+.left-area{
+    height: 94%;
+    width: 38%;
+    border-style: solid;
+    /* background-color: blanchedalmond; */
+    float: left;
+}
+.leftbox1, .leftbox2{
+    height: 40%;
+    width: 80%;
+    border-style: solid;
+    margin: 4rem;
+    /* background-color: brown; */
+}
+
+.right-upper-area{
+    height: 46%;
+    width: 62%;
+    border-style: solid;
+    float: left;
+}
+
+.right-lower-area{
+    height: 48%;
+    width: 62%;
+    border-style: solid;
+    float: left;
+}
+
+.rightcircle1, .rightcircle2{
+    height: 90%;
+    width: 35%;
+    margin: 2%;
+    margin-left: 10%;
+    border-style: solid;
+    border-radius: 50%;
+    float: left;
+    /* background-color: aquamarine; */
+}
+.rightbottom1, .rightbottom2{
+    height: 30%;
+    width: 90%;
+    border-style: solid;
+    /* background-color: blueviolet; */
+    margin: 5%;
+}
